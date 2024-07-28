@@ -1,0 +1,4 @@
+[console_scripts]
+integer_generator = scripts.integer_generator:main
+odd_even_classifier = scripts.odd_even_classifier:main
+

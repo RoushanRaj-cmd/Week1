@@ -1,0 +1,42 @@
+running egg_info
+creating build/week1/week1.egg-info
+writing build/week1/week1.egg-info/PKG-INFO
+writing dependency_links to build/week1/week1.egg-info/dependency_links.txt
+writing entry points to build/week1/week1.egg-info/entry_points.txt
+writing requirements to build/week1/week1.egg-info/requires.txt
+writing top-level names to build/week1/week1.egg-info/top_level.txt
+writing manifest file 'build/week1/week1.egg-info/SOURCES.txt'
+package init file 'scripts/__init__.py' not found (or not a regular file)
+reading manifest file 'build/week1/week1.egg-info/SOURCES.txt'
+writing manifest file 'build/week1/week1.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/roushan/week1/build/week1/build
+creating /home/roushan/week1/build/week1/build/lib
+creating /home/roushan/week1/build/week1/build/lib/scripts
+copying scripts/integer_generator.py -> /home/roushan/week1/build/week1/build/lib/scripts
+copying scripts/odd_even_classifier.py -> /home/roushan/week1/build/week1/build/lib/scripts
+creating /home/roushan/week1/build/week1/build/lib/week1
+copying week1/__init__.py -> /home/roushan/week1/build/week1/build/lib/week1
+running install
+running install_lib
+creating /home/roushan/week1/install/week1/lib/python3.10/site-packages/week1
+copying /home/roushan/week1/build/week1/build/lib/week1/__init__.py -> /home/roushan/week1/install/week1/lib/python3.10/site-packages/week1
+creating /home/roushan/week1/install/week1/lib/python3.10/site-packages/scripts
+copying /home/roushan/week1/build/week1/build/lib/scripts/integer_generator.py -> /home/roushan/week1/install/week1/lib/python3.10/site-packages/scripts
+copying /home/roushan/week1/build/week1/build/lib/scripts/odd_even_classifier.py -> /home/roushan/week1/install/week1/lib/python3.10/site-packages/scripts
+byte-compiling /home/roushan/week1/install/week1/lib/python3.10/site-packages/week1/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/roushan/week1/install/week1/lib/python3.10/site-packages/scripts/integer_generator.py to integer_generator.cpython-310.pyc
+byte-compiling /home/roushan/week1/install/week1/lib/python3.10/site-packages/scripts/odd_even_classifier.py to odd_even_classifier.cpython-310.pyc
+running install_data
+creating /home/roushan/week1/install/week1/share/ament_index
+creating /home/roushan/week1/install/week1/share/ament_index/resource_index
+creating /home/roushan/week1/install/week1/share/ament_index/resource_index/packages
+copying resource/week1 -> /home/roushan/week1/install/week1/share/ament_index/resource_index/packages
+copying package.xml -> /home/roushan/week1/install/week1/share/week1
+running install_egg_info
+Copying build/week1/week1.egg-info to /home/roushan/week1/install/week1/lib/python3.10/site-packages/week1-0.0.0-py3.10.egg-info
+running install_scripts
+Installing integer_generator script to /home/roushan/week1/install/week1/lib/week1
+Installing odd_even_classifier script to /home/roushan/week1/install/week1/lib/week1
+writing list of installed files to '/home/roushan/week1/build/week1/install.log'

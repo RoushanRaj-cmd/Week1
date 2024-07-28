@@ -1,0 +1,44 @@
+[1.137s] Invoking command in '/home/roushan/week1': PYTHONPATH=/home/roushan/week1/build/week1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roushan/week1/install/week1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/week1 build --build-base /home/roushan/week1/build/week1/build install --record /home/roushan/week1/build/week1/install.log --single-version-externally-managed install_data
+[1.572s] running egg_info
+[1.573s] creating build/week1/week1.egg-info
+[1.573s] writing build/week1/week1.egg-info/PKG-INFO
+[1.573s] writing dependency_links to build/week1/week1.egg-info/dependency_links.txt
+[1.574s] writing entry points to build/week1/week1.egg-info/entry_points.txt
+[1.574s] writing requirements to build/week1/week1.egg-info/requires.txt
+[1.574s] writing top-level names to build/week1/week1.egg-info/top_level.txt
+[1.575s] writing manifest file 'build/week1/week1.egg-info/SOURCES.txt'
+[1.577s] package init file 'scripts/__init__.py' not found (or not a regular file)
+[1.578s] reading manifest file 'build/week1/week1.egg-info/SOURCES.txt'
+[1.579s] writing manifest file 'build/week1/week1.egg-info/SOURCES.txt'
+[1.580s] running build
+[1.580s] running build_py
+[1.580s] creating /home/roushan/week1/build/week1/build
+[1.581s] creating /home/roushan/week1/build/week1/build/lib
+[1.581s] creating /home/roushan/week1/build/week1/build/lib/scripts
+[1.581s] copying scripts/integer_generator.py -> /home/roushan/week1/build/week1/build/lib/scripts
+[1.581s] copying scripts/odd_even_classifier.py -> /home/roushan/week1/build/week1/build/lib/scripts
+[1.582s] creating /home/roushan/week1/build/week1/build/lib/week1
+[1.582s] copying week1/__init__.py -> /home/roushan/week1/build/week1/build/lib/week1
+[1.582s] running install
+[1.583s] running install_lib
+[1.583s] creating /home/roushan/week1/install/week1/lib/python3.10/site-packages/week1
+[1.584s] copying /home/roushan/week1/build/week1/build/lib/week1/__init__.py -> /home/roushan/week1/install/week1/lib/python3.10/site-packages/week1
+[1.584s] creating /home/roushan/week1/install/week1/lib/python3.10/site-packages/scripts
+[1.584s] copying /home/roushan/week1/build/week1/build/lib/scripts/integer_generator.py -> /home/roushan/week1/install/week1/lib/python3.10/site-packages/scripts
+[1.585s] copying /home/roushan/week1/build/week1/build/lib/scripts/odd_even_classifier.py -> /home/roushan/week1/install/week1/lib/python3.10/site-packages/scripts
+[1.585s] byte-compiling /home/roushan/week1/install/week1/lib/python3.10/site-packages/week1/__init__.py to __init__.cpython-310.pyc
+[1.586s] byte-compiling /home/roushan/week1/install/week1/lib/python3.10/site-packages/scripts/integer_generator.py to integer_generator.cpython-310.pyc
+[1.586s] byte-compiling /home/roushan/week1/install/week1/lib/python3.10/site-packages/scripts/odd_even_classifier.py to odd_even_classifier.cpython-310.pyc
+[1.587s] running install_data
+[1.588s] creating /home/roushan/week1/install/week1/share/ament_index
+[1.588s] creating /home/roushan/week1/install/week1/share/ament_index/resource_index
+[1.588s] creating /home/roushan/week1/install/week1/share/ament_index/resource_index/packages
+[1.588s] copying resource/week1 -> /home/roushan/week1/install/week1/share/ament_index/resource_index/packages
+[1.589s] copying package.xml -> /home/roushan/week1/install/week1/share/week1
+[1.589s] running install_egg_info
+[1.591s] Copying build/week1/week1.egg-info to /home/roushan/week1/install/week1/lib/python3.10/site-packages/week1-0.0.0-py3.10.egg-info
+[1.593s] running install_scripts
+[1.631s] Installing integer_generator script to /home/roushan/week1/install/week1/lib/week1
+[1.631s] Installing odd_even_classifier script to /home/roushan/week1/install/week1/lib/week1
+[1.632s] writing list of installed files to '/home/roushan/week1/build/week1/install.log'
+[1.695s] Invoked command in '/home/roushan/week1' returned '0': PYTHONPATH=/home/roushan/week1/build/week1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roushan/week1/install/week1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/week1 build --build-base /home/roushan/week1/build/week1/build install --record /home/roushan/week1/build/week1/install.log --single-version-externally-managed install_data
